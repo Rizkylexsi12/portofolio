@@ -6,3 +6,7 @@
     --font-nunito: "Nunito", "sans-serif";
     --font-nunito-sans: "Nunito Sans", "sans-serif";
 }
+
+html {
+    scroll-behavior: smooth;
+}

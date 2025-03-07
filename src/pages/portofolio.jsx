@@ -4,7 +4,7 @@ import Card from "../components/card";
 
 function Portofolio() {
     return (
-        <div className="mt-[250px]">
+        <section id="portofolio" className="mt-[250px] scroll-mt-5">
             <div className="text-center">
                 <Title name="Portofolios" />
             </div>
@@ -14,7 +14,7 @@ function Portofolio() {
                 <Card />
                 <Card />
             </div>
-        </div>
+        </section>
     );
 }
 
