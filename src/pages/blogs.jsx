@@ -17,9 +17,9 @@ function Blogs() {
             <div className="my-10">
                 <h1 className="font-bold text-3xl">Connect</h1>
                 <div className="flex gap-5 justify-center my-10">
-                    <ButtonAction label="Email"/>
-                    <ButtonAction label="Linkedin"/>
-                    <ButtonAction label="Instagram"/>
+                    <ButtonAction label="Email" decoration={true} to="mailto:rizkylexsi@gmail.com?subject=Collaboration"/>
+                    <ButtonAction label="Linkedin" decoration={true} to="https://www.linkedin.com/in/rizky-febdriasyah-lexsi/"/>
+                    <ButtonAction label="Instagram" decoration={true} to="https://www.instagram.com/rizkylexsi"/>
                 </div>
             </div>
         </div>

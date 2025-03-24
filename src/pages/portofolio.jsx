@@ -10,9 +10,8 @@ function Portofolio() {
             </div>
             <TabMenu />
             <div className="flex justify-evenly">
-                <Card />
-                <Card />
-                <Card />
+                <Card title="Automation" subtitle="Automation code for Saucedemo website" image="/github.png" to="https://github.com/Rizkylexsi12/saucedemo"/>
+                <Card title="Cypress Automation" subtitle="Automation code using Cypress" image="/github.png" to="https://github.com/Rizkylexsi12/automation"/>
             </div>
         </section>
     );

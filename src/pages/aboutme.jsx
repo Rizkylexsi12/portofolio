@@ -7,7 +7,7 @@ function AboutMe() {
         <section id="about-me" className="w-full mt-[250px] flex justify-between scroll-mt-[200px]">
             <div className="w-[636px] flex flex-col justify-between">
                 <Title name="About me."/>
-                <Description content="/*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.*/" />
+                <Description content="I am a Quality Assurance and Frontend Developer, passionate about my work and everything I do. I thrive on creating seamless user experiences and ensuring top-notch software quality." />
                 <div className="flex justify-evenly mb-[50px]">
                     <ButtonAction label="💼 Work"/>
                     <ButtonAction label="🎓 Education"/>
