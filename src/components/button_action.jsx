@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 function ButtonAction({ label, decoration, to }) {
 
     return (
-        <a href={to} target="_blank" className="border-2 px-[25px] py-[6px] font-bold text-2xl rounded-[10px] transition duration-300 ease-in-out hover:scale-110 flex items-center cursor-pointer">{label}
+        <Link to={to} target="_blank" className="border-2 px-[25px] py-[6px] font-bold text-2xl rounded-[10px] transition duration-300 ease-in-out hover:scale-110 flex items-center cursor-pointer">{label}
             {decoration && (
             <svg className="ml-2" width="20" height="21" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_209_40)">
@@ -16,7 +17,7 @@ function ButtonAction({ label, decoration, to }) {
                 </defs>
             </svg>
             )}
-        </a>
+        </Link>
     );
 }
 
