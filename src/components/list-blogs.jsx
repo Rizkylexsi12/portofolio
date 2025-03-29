@@ -1,10 +1,17 @@
 import PropTypes from "prop-types";
 
-function ListBlog(props) {
+function ListBlog({
+    link,
+    date,
+    title,
+    className
+}) {
     return (
-        <a href={props.link} className="flex gap-6 text-base" target="_blank">
-            <div className="w-[100px]">{props.date}</div>
-            <div className="w-[400px] truncate">{props.title}</div>
+        <a href={link} className={`flex gap-6 text-base ${className}`} target="_blank">
+            <div className="relative">
+                <div className="w-[120px]">{date}</div>
+            </div>
+            <div className="max-w-[400px] truncate">{title}</div>
         </a>
     );
 }
@@ -12,7 +19,8 @@ function ListBlog(props) {
 ListBlog.propTypes = {
     date: PropTypes.string,
     title: PropTypes.string,
-    link: PropTypes.string
+    link: PropTypes.string,
+    className: PropTypes.string
 }
 
 export default ListBlog;

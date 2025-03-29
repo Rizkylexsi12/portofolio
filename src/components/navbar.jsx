@@ -1,4 +1,4 @@
-import Button from "./button";
+import ButtonContactMe from "./btn-contact-me";
 import Menu from "./menu";
 import Profile from "./profile";
 
@@ -8,7 +8,7 @@ function Navbar() {
             <nav className="flex items-center justify-between">
                 <Profile/>
                 <Menu/>
-                <Button/>
+                <ButtonContactMe/>
             </nav>
         </header>
     );
