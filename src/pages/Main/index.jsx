@@ -3,9 +3,8 @@ import Quotes from "../../components/quotes";
 import Title from "../../components/title";
 import Description from "../../components/description";
 import ButtonAction from "../../components/btn-action";
-import TabMenu from "../../components/tab-menu";
-import Card from "../../components/card";
 import ListBlog from "../../components/list-blogs";
+import PortflioList from "../../components/molecules/portfolio-list";
 
 function MainPage() {
     return (
@@ -44,21 +43,7 @@ function MainPage() {
                 <div className="text-center">
                     <Title name="Portfolios" />
                 </div>
-                <TabMenu />
-                <div className="flex justify-evenly">
-                    <Card 
-                        title="Automation" 
-                        subtitle="Automation code for Saucedemo website" 
-                        image="/github.png" 
-                        to="https://github.com/Rizkylexsi12/saucedemo"
-                    />
-                    <Card 
-                        title="Cypress Automation" 
-                        subtitle="Automation code using Cypress" 
-                        image="/github.png" 
-                        to="https://github.com/Rizkylexsi12/automation"
-                    />
-                </div>
+                <PortflioList />
             </section>
 
             {/* Blogs Page */}
@@ -86,7 +71,7 @@ function MainPage() {
                     <div className="flex gap-5 justify-center mt-5 mb-10">
                         <ButtonAction label="Email" decoration={true} to="mailto:rizkylexsi@gmail.com?subject=Collaboration"/>
                         <ButtonAction label="LinkedIn" decoration={true} to="https://www.linkedin.com/in/rizky-febdriasyah-lexsi/"/>
-                        <ButtonAction label="Instagram" decoration={true} to="https://www.instagram.com/rizkylexsi"/>
+                        <ButtonAction label="Instagram" decoration={true} to=""/>
                     </div>
                 </div>
             </section>

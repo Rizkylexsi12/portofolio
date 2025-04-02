@@ -8,7 +8,7 @@ function EducationPage() {
             <SubHeader title="Education" />
             <div className="flex justify-center mt-10">
                 <div className="flex flex-col gap-2">
-                    <ListBlog title="Universitas Budi Luhur" date="2020 - 2024" />
+                    <ListBlog title="Banchelor of Computer Science @Budi Luhur University" date="2020 - 2024" />
                 </div>
             </div>
         </div>
