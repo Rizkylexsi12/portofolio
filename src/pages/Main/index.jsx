@@ -34,7 +34,8 @@ function MainPage() {
                     </div>
                 </div>
                 <div>
-                    <img src="/foto.jpg" className="rounded-[50px] w-[415px] h-[544px]"/>
+                    {/* <img src="/foto.jpg" className="rounded-[50px] w-[415px] h-[544px]"/> */}
+                    <img src="/profile.svg" />
                </div>
             </section>
 
