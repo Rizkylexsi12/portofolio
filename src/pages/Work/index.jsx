@@ -10,7 +10,8 @@ function WorkPage() {
                     <ListBlog title="Andtechnology" date="2021 - 2022" />
                     <ListBlog title="PT. Infradigital Nusantara" date="2022 - 2023" />
                     <ListBlog title="PT. Inti Dunia Sukses" date="2023 - 2024" />
-                    <ListBlog title="PT. Jejaring Tiga Artha" date="2024 - Present" />
+                    <ListBlog title="PT. Jejaring Tiga Artha" date="2024 - 2025" />
+                    <ListBlog title="PT. Inovasi Anak Indonesia" date="2025 - Present" />
                 </div>
             </div>
         </div>
